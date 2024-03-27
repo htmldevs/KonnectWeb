@@ -1,0 +1,358 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mission-contents {
+        width: 50%;
+    }
+    .mission-img{
+        width: 50%;
+    }
+    .event-wrap-blk > div p { 
+        font-size: 15px;
+        width: 48%;
+        font-size: 14px;
+    }
+    .blk-wrap h4 {
+        font-size: 16px;
+    }
+    .about-wrap h4 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .about-imgs img:last-child {
+        width: 270px;
+        height: 480px; 
+    }
+    .about-imgs img:first-child {
+        width: 200px;
+        height: 400px; 
+    }
+    .hero-wrap h2 {
+        font-size: 42px; 
+    }
+
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-imgs { 
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .about-wrap {
+        padding: 0 50px;
+    }
+    
+    .event-wrap-blk h4 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    
+    .event-wrap-blk > div {
+        flex-wrap: wrap;
+    }
+    
+    .event-wrap-blk > div p {
+        width: 100%;
+    }
+    
+    .event_categ {
+        margin-bottom: 20px;
+    }
+    
+    .mission-wrap {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    .mission-img,.mission-contents {
+        margin: auto;
+        width: 80%;
+    }
+    
+    section.blog-area .blk {
+        margin-bottom: 30px;
+    }
+    .footer-widget {
+        width: 45%;
+    }
+    .footer-widget:first-child,.footer-widget:nth-child(2) {
+        width: 45%;
+    }
+    .footer-wrap { 
+        gap: 30px; 
+    }
+
+
+
+}
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .theme-btn {
+        padding: 0 10px;
+        height: 38px;
+        font-size: 14px;
+        gap: 5px;
+        font-weight: 500;
+    }
+    
+    .theme-btn img {
+        max-width: 18px;
+    }
+    .hero-wrap h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    
+    section.hero-area {
+        padding: 100px 0;
+    }
+    
+    .hero-wrap p {
+        font-size: 16px;
+    }
+    
+    .about-imgs img:first-child {
+        width: 120px;
+        height: 200px;
+    }
+    
+    .about-imgs img:last-child {
+        width: 160px;
+        height: 250px;
+    }
+    
+    .about-imgs {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    
+    section.about-area {
+        padding: 80px 0;
+    }
+    
+    .about-wrap {
+        text-align: center;
+    }
+    
+    .about-wrap h4 {
+        font-size: 28px;
+    }
+    
+    .about-wrap a.theme-btn {
+        margin: auto;
+    }
+    
+    section.campaigns-area {
+        padding: 50px 0 100px 0;
+    }
+    
+    .section-title h2 {
+        font-size: 26px;
+    }
+    
+    .section-title {
+        margin-bottom: 40px;
+    }
+    
+    .all-campains {
+        padding: 0 20px;
+    }
+    
+    .owl-nav > div {
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+    }
+    
+    .categ {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    
+    .blk-wrap h4 {
+        font-size: 15px;
+    }
+    
+    .blk-wrap p {
+        margin-bottom: 5px;
+    }
+    
+    .event-wrap-blk {
+        padding: 15px;
+    }
+    
+    .event_categ {
+        padding: 6px 12px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .event-wrap-blk h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .event-wrap-blk > div p {
+        width: 100%;
+        font-size: 11px;
+    }
+    
+    .event-wrap-blk > div {
+        gap: 5px;
+    }
+    
+    .owl-dots {
+        margin: 30px 0 0px 0;
+    }
+    
+    section.mission-area {
+        padding: 80px 0;
+    }
+    
+    .mission-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    
+    .mission-contents,.mission-img {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .mission-contents h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .mission-contents div#nav-tab {
+        justify-content: center;
+    }
+    
+    .mission-contents div#nav-tab button {
+        padding: 8px 30px;
+    }
+    
+    .mission-contents a.theme-btn {
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    section.blog-area {
+        padding: 70px 0;
+    }
+    
+    section.blog-area .blk {
+        margin-bottom: 30px;
+    }
+    
+    .footer-wrap {flex-wrap: wrap;gap: 40px;}
+    
+    .footer-widget {
+        width: 100% !IMPORTANT;
+    }
+    
+    footer > p {
+        font-size: 13px;
+    }
+    
+    .footer-widget:first-child {
+        text-align: center;
+    }
+    
+    .footer-widget:first-child a.logo {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    ul.social-links {
+        justify-content: center;
+    }
+    
+    .footer-widget:nth-child(2) {
+        padding: 0;
+        text-align: center;
+    }
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
+
+
+
+/* XL DEVICE */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* MD & LG DEVICE*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .page-title h2 {
+        font-size: 40px;
+    }
+    .page-title .breadcrumb-item {
+        font-size: 18px;
+    }
+    .progressbar .progress {
+        height: 13px;
+    }
+}
+
+/* LG DEVICE*/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* MD DEVICE */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* MOBILE DEVICE */
+@media (max-width: 767px) {
+
+    body {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+
+    /* PAGE TITLE */
+    .page-title {
+        height: 200px;
+    }
+    .page-title h2 {
+        font-size: 30px;
+    }
+    .page-title .breadcrumb-item {
+        font-size: 14px;
+    }
+    .progressbar .progress {
+        height: 10px;
+    }
+}
+
+
+
