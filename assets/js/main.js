@@ -5,8 +5,9 @@
   $('.siteBar-btn').click( function (){ 
     $('.mobile-menu').toggleClass('siteBar');   
   }); 
-
-    
+   // NiceSelect
+   $("select").niceSelect();
+   
   // owlCarousel
   $(".all-campains").owlCarousel({
     loop: true,

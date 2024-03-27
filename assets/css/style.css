@@ -7,6 +7,9 @@
   --black-color: #000000;
   scroll-behavior: smooth;
 }
+html, body {
+  overflow-x: hidden;
+}
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400; 
@@ -846,6 +849,7 @@ ul.menu-links li a:hover {
 /* EVENT & Campaign DETAILS PAGE */
 .fw-medium {font-weight: 500;}
 .fw-semibold {font-weight: 600;}
+.fw-bold {font-weight: 700;}
 .container-1100 {
   max-width: 1130px;
 }
@@ -931,7 +935,8 @@ hr {
 
 /* Search Box */
 .search-box,
-.recent-post {
+.recent-post,
+.membership-plan-box {
   padding: 1.5em;
   border-radius: 5px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -963,3 +968,109 @@ hr {
   margin-bottom: 0;
 }
 /* EVENT DETAILS PAGE end */
+
+
+/* MEMBERSHIP FORM PAGE */
+.membership-form-box {
+  padding: 3em 5em;
+  border-radius: 10px;
+  border: 1px solid #979797;
+}
+.membership-form input {
+  border-color: #D8D8D8;
+  background-color: transparent;
+}
+.membership-form label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.membership-form input::placeholder {
+  color: #BDBDBD;
+}
+.membership-form .nice-select {
+  width: 100%;
+  float: inherit;
+  font-size: 16px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  padding: 1.5em;
+  border-radius: 10px;
+}
+.membership-form .nice-select:after {
+  right: 1.5em;
+  width: 8px;
+  height: 8px;
+  margin-top: -7px;
+}
+.membership-form .nice-select ul.list {
+  width: 100%;
+}
+
+.checkbox-input label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.checkbox-input label span {
+  width: 1.25em;
+  height: 1.25em;
+  border: 1px solid #979797;
+  border-radius: 3px;
+}
+.checkbox-input input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.checkbox-input input[type="checkbox"]:checked + label span {
+	background-color: var(--theme-color);
+  border-color: transparent;
+}
+.btn-transparent {
+  border: 1px solid var(--theme-color);
+  background-color: transparent;
+  color: var(--theme-color);
+}
+.btn-transparent:hover {
+  border-color: transparent;
+}
+.form-timeline ul li {
+  width: 100%;
+  background-color: #F5F5F5;
+  color: #979797;
+  padding: 0.8em 2em 0.8em 3em;
+  text-align: left;
+  clip-path: polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%, 8% 50%);
+}
+.form-timeline ul li.active {
+  background-color: var(--theme-color);
+  color: var(--white-color);
+}
+.membership-form-box p {
+	padding: 0 10%;
+}
+
+.plan-heading h2 {
+  font-size: 46px;
+  line-height: 1;
+  margin-bottom: 5px;
+  color: #FF0090;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+}
+.plan-heading h2 span {
+  font-size: 0.43em;
+  position: absolute;
+  top: -5px;
+  left: -20px;
+}
+.plan-heading p {
+  font-size: 14px;
+}
+/* MEMBERSHIP FORM PAGE end */

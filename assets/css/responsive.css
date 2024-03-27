@@ -325,6 +325,12 @@
         max-width: 80px;
         height: 80px;
     }
+    .membership-form-box {
+        padding: 3em 3em;
+    }
+    .membership-form-box p {
+        padding: 0;
+    }
 }
 
 /* LG DEVICE*/
@@ -332,7 +338,12 @@
 
 /* MD DEVICE */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .membership-form-box {
+        padding: 2em 2em;
+    }
+    .form-timeline ul li {
+        padding: 0.8em 1.5em 0.8em 2em;
+    }
 }
 
 /* MOBILE DEVICE */
@@ -368,11 +379,19 @@
     .blog-alert {
         font-size: 14px;
     }
-
-
-
-
-
+    .membership-form-box {
+        padding: 2em 2em;
+    }
+    .form-timeline ul li {
+        padding: 1em 1em 1em 1.5em;
+        font-size: 11px;
+    }
+    .membership-form-box p {
+        padding: 0;
+    }
+    .plan-heading h5 {
+        font-size: 18px;
+    }
 }
 
 
