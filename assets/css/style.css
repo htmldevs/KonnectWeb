@@ -33,7 +33,12 @@ a:hover {
 a,
 button {
   color: inherit;
-  outline: medium none; }
+  outline: medium none;
+  transition: .3s;
+}
+a:hover {
+  color: var(--theme-color);
+}
 
 button:focus, input:focus, input:focus, textarea, textarea:focus {
   outline: 0; }
@@ -121,6 +126,28 @@ li {
 .white-content p,
 .white-content a {
   color: #ffffff;
+}
+input, textarea {
+	width: 100%;
+	border: 1px solid transparent;
+	background-color: #F8FAF9;
+	border-radius: 10px;
+	padding: 0.7em;
+	transition: .3s;
+}
+input:focus, textarea:focus {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+::-moz-placeholder,
+::placeholder {
+   color: #505050;
+   opacity: 1;
+}
+::-ms-placeholder {
+   color: #505050;
+}
+::-webkit-input-placeholder {
+   color: #505050;
 }
 /* default-css END 
 ================================== */
@@ -849,7 +876,7 @@ hr {
 }
 
 .event-bx {
-	box-shadow: 0px 0px 15px 0 #00000017;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
 	padding: 2em 1.5em;
 }
@@ -867,7 +894,7 @@ hr {
 .progressbar {
   padding: 2em;
   border-radius: 5px;
-  box-shadow: 0px 5px 15px 0 #0000001c;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .progressbar .progress {
 	overflow: inherit;
@@ -886,5 +913,53 @@ hr {
   color: var(--theme-color);
   font-size: 16px;
   font-weight: 700;
+}
+.blog-alert {
+  font-size: 18px;
+  font-style: italic;
+  background-color: #F4FBFF;
+  padding: 1.5em;
+  border-left: 0.39em solid var(--theme-color);
+}
+
+/* Subscribe Form */
+.subscribe-form {
+  padding: 1.9em;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Box */
+.search-box,
+.recent-post {
+  padding: 1.5em;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.search-input img {
+  position: absolute;
+  top: 50%;
+  left: 1em;
+  transform: translateY(-50%);
+  max-width: 1.5em;
+}
+.search-input input {
+  border-radius: 5px;
+  padding-left: 3em;
+}
+.rp-img img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.flex-1 {
+  flex: 1;
+}
+
+.recent-post-item {
+  margin-bottom: 20px;
+}
+.recent-post-item:last-child {
+  margin-bottom: 0;
 }
 /* EVENT DETAILS PAGE end */

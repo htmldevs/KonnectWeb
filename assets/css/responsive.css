@@ -318,13 +318,22 @@
     .progressbar .progress {
         height: 13px;
     }
+    .blog-alert {
+        font-size: 14px;
+    }
+    .rp-img img {
+        max-width: 80px;
+        height: 80px;
+    }
 }
 
 /* LG DEVICE*/
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 /* MD DEVICE */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
 
 /* MOBILE DEVICE */
 @media (max-width: 767px) {
@@ -352,6 +361,18 @@
     .progressbar .progress {
         height: 10px;
     }
+    .rp-img img {
+        max-width: 80px;
+        height: 80px;
+    }
+    .blog-alert {
+        font-size: 14px;
+    }
+
+
+
+
+
 }
 
 
