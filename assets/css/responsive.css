@@ -392,6 +392,9 @@
     .plan-heading h5 {
         font-size: 18px;
     }
+    .plan-tab-contents {
+        padding: 1.5em;
+    }
 }
 
 

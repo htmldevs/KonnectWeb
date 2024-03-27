@@ -1074,3 +1074,66 @@ hr {
   font-size: 14px;
 }
 /* MEMBERSHIP FORM PAGE end */
+
+
+/* MEMBERSHIP PLAN PAGE */
+.plan-tab-contents {
+  padding: 2em 3em;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.plan-feature {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 1.5em;
+}
+.plan-tab-link {
+  background-color: #F5F5F5;
+  color: var(--theme-color);
+  font-weight: 600;
+  padding: 0.8em 3em;
+  cursor: pointer;
+  transition: .3s;
+}
+.plan-tab-link.active {
+  background-color: var(--theme-color);
+  color: var(--white-color);
+}
+.plan-tab-contents .site-btn {
+  width: 100%;
+}
+
+.plan-box-1 h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.plan-box-1 h2 span {
+  font-size: 0.4em;
+  color: #979797;
+  font-weight: 500;
+}
+.plan-feature ul li {
+  display: flex;
+  gap: 15px;
+  align-items: start;
+}
+.plan-feature ul li img {
+  max-width: 1.5em;
+  margin-top: 0.4em;
+}
+@keyframes fadeEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.plan-tab-content {
+  display: none;
+  animation: fadeEffect 1s ease;
+}
+.plan-tab-content.active {
+  display: block;
+}
+/* MEMBERSHIP PLAN PAGE end */
